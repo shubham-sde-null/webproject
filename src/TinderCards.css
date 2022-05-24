@@ -1,0 +1,40 @@
+.card {
+    position: relative;
+    background-color: #fff;
+    width: 600px;
+    padding: 20px;
+    max-width: 85vw;
+    height: 50vh;
+    box-shadow: 0px 18px 53px 0px rgba(0, 0, 0.3);
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+}
+
+.tinderCards__cardContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.swipe {
+    position: absolute;
+    /* we have given position absolute because we want our card to be on top of each other  */
+    /* position: relative; */
+    /* if we had used relative the have been placed side to each other, we don't want that to happen  */
+}
+
+.cardContent {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* I don't know why used this class over here I will resolve it in the future  */
+
+.card h3 {
+    position: absolute;
+    bottom: 0;
+    margin: 10px;
+    color: #fff;
+}

@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+    /* here I have given the z index 100 because I want to keep the header at top always  */
+    border-bottom: 1px solid #f9f9f9;
+    /* here this is very thin border if you didn't see the increase the pixel value  */
+}
+
+.header__logo {
+    /* object-fit: contain; */
+    height: 40px;
+}
+
+.header__icon {
+    padding: 20px;
+}
